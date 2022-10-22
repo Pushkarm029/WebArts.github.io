@@ -1,0 +1,86 @@
+#navbar{
+    flex-direction:column;
+}
+
+
+#logo{
+    margin: 15px 25px;
+}
+
+#navbar ul li{
+    font-size: 1rem;
+}
+
+#navbar ul li a{
+    padding: 10px 4.7px;
+}
+
+#home{
+    height: 450px;
+    padding: 7px 40px;
+
+}
+
+#home::before{
+    height: 480;
+}
+
+#home h1{
+    font-size:6rem;
+    padding: 0px 15px;
+}
+
+#home h2{
+    font-size:1.4rem;
+}
+
+#worldwide img{
+    height: 55px;
+    margin: 25px 0px;
+}
+
+#home p{
+    font-size:0.97rem;
+
+}
+
+#portfolio{
+    flex-direction: column;
+}
+
+#services{
+    flex-direction: column;
+}
+
+#services .box{
+    margin: 8px 4px;
+}
+
+#services .box img{
+    height: 75px;
+}
+
+.h-primary{
+    font-size: 2.0rem;
+}
+
+.h-secondary{
+    font-size: 1.3rem;
+}
+
+#services p{
+    font-size: 0.8rem;
+}
+
+footer{
+    padding: 15px 15px; 
+    font-size: 0.72rem;
+}
+
+#twoservices{
+    flex-direction: column;
+}
+
+#twoservices img{
+    height: 55px;
+}

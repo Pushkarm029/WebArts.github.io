@@ -1,0 +1,94 @@
+#navbar{
+    flex-direction:column;
+}
+#logo{
+    margin: 15px 25px;
+}
+
+#navbar ul li{
+    font-size: 1rem;
+}
+
+#navbar ul li a{
+    padding: 10px 4.7px;
+}
+
+/*Home*/
+
+
+#services-container{
+    height: 1480px;
+}
+
+#services-container::before{
+    height: 1582px;
+}
+
+#services-container2{
+    height: 585px;
+}
+
+#services-container2::before{
+    height: 605px;
+}
+
+
+#services{
+    height: 667px;
+    padding: 7px 20px;
+    flex-direction: column;
+}
+
+#twoservices{
+    height: 520px;
+    padding: 7px 20px;
+    flex-direction: column;
+}
+
+.box{
+    height: 480;
+    margin: 3px 0px;
+    padding: 20px;
+    backdrop-filter: blur(6px);
+
+}
+
+.box a{
+    flex-direction: row;
+}
+
+.box:hover{
+    transform: none;
+    margin: 0px 0px;
+    backdrop-filter: blur(6px);
+    border: 2px solid white;
+}
+
+.box img{
+    height: 120px;
+    margin: auto;
+}
+
+.h-primary{
+    font-size: 1.9rem;
+}
+
+.h-2pre{
+    font-size: 1.35rem;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.h-secondary{
+    font-size: 1.1rem;
+}
+
+#services p{
+    font-size: 0.9rem;
+    padding: 0px 0px 0px 20px;
+}
+
+footer{
+    padding: 15px 15px; 
+    font-size: 0.72rem;
+}
