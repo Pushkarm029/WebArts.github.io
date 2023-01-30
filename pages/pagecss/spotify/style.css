@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body{
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#topcontent{
+    position: fixed;
+}
+
+#navbar{
+    position: fixed;
+    background-color: #000;
+    height: 100vh;
+}
+
+#navbar a object{
+    padding: 30px 81px 30px 35px;
+}
+
+#navbar ul li object{
+    padding: 5px 15px 5px 10px;
+}
+
+.navpart2{
+    padding: 10px 0px;
+}
+
+.topnav{
+    background-image: linear-gradient(to right, #111111 , #101010);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+#music{
+    margin: 0px 0px 0px 265px;
+    background-image: linear-gradient(to right, #1e1e1e, #121212 , #1e1e1e);
+}
+
+.item{
+    font-size: 1.15rem;
+    margin: 7px 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.item a{
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.baapbox{
+    display: flex;
+}
+
+.betabox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.betabox h1{
+    font-size: 2rem;
+}
+
+.betabox h2{
+    font-size: 1rem;
+}
+
+h1:hover{
+    text-decoration: underline;
+}
+
+h2:hover{
+    text-decoration: underline;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.box{
+    border-radius: 10%;
+    background-color: grey;
+}
+
+.login{
+    font-size: 1rem;
+    padding: 15px 35px;
+    border-radius: 35px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 580;
+    margin: 10px 10px;
+}
+
+.signup{
+    font-size: 1rem;
+    color: #ADADAD;
+    font-weight: 580;
+    margin: 10px 20px;
+}
